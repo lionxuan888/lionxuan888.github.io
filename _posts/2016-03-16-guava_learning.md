@@ -6,24 +6,24 @@ tags:
 - guava
 
 
-# Guava ÕûÀíÑ§Ï°
+# Guava æ•´ç†å­¦ä¹ 
 
 ------
 
-wiki£ºhttps://github.com/google/guava/wiki
+wikiï¼šhttps://github.com/google/guava/wiki
 
-## Guava º¯ÊıÊ½±à³Ì
-ÔÚFunctionalExplainedÒ»½Ú£¬guavaÉÏÀ´¾Í±È½ÏÁËº¯ÊıÊ½ºÍ³£¹æÊ½µÄĞ´·¨£¬²¢ÇÒÖ¸³öÁËº¯ÊıÊ½
+## Guava å‡½æ•°å¼ç¼–ç¨‹
+åœ¨FunctionalExplainedä¸€èŠ‚ï¼Œguavaä¸Šæ¥å°±æ¯”è¾ƒäº†å‡½æ•°å¼å’Œå¸¸è§„å¼çš„å†™æ³•ï¼Œå¹¶ä¸”æŒ‡å‡ºäº†å‡½æ•°å¼
 ```python
 Even using static imports, even if the Function and the Predicate declarations are moved to a different file, the first implementation is less concise, less readable, and less efficient.
 ```
-³ı·ÇÄãÄÜ¾ø¶ÔÈ·±£ÒÔÏÂÁ½µã£º
+é™¤éä½ èƒ½ç»å¯¹ç¡®ä¿ä»¥ä¸‹ä¸¤ç‚¹ï¼š
 ```python
     Use of functional idioms will result in net savings of lines of code for your entire project. In the example above, the "functional" version used 11 lines, the imperative version 6. Moving the definition of a function to another file, or a constant, does not help.
 
     For efficiency, you need a lazily computed view of the transformed collection and cannot settle for an explicitly computed collection. Additionally, you have read and reread Effective Java, item 55, and besides following those instructions, you have actually done benchmarking to prove that this version is faster, and can cite numbers to prove it.
 ```
-×îºóÔÙ´ÎÇ¿µ÷£º
+æœ€åå†æ¬¡å¼ºè°ƒï¼š
 ```python
 Please be sure, when using Guava's functional utilities, that the traditional imperative way of doing things isn't more readable. Try writing it out. Was that so bad? Was that more readable than the preposterously awkward functional approach you were about to try?
 ```
