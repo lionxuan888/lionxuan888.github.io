@@ -1,7 +1,6 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
-encoding:         UTF-8
 
 # Permalinks
 permalink:        pretty
