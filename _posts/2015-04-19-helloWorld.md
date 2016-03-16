@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving the "Cheryl's Birthday" Puzzle
+title: ∑ÔªÀ¡Î“ª”Œ
 categories: [life]
 tags:
 - math
