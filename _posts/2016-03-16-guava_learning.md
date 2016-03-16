@@ -16,9 +16,7 @@ wiki：[https://github.com/google/guava/wiki](https://github.com/google/guava/wi
 
 在FunctionalExplained一节，guava上来就比较了函数式和常规式的写法，并且指出了函数式
 
-```
-Even using static imports, even if the Function and the Predicate declarations are moved to a different file, the first implementation is less concise, less readable, and less efficient.
-```
+```Even using static imports, even if the Function and the Predicate declarations are moved to a different file, the first implementation is less concise, less readable, and less efficient.```
 
 除非你能绝对确保以下两点：
 
