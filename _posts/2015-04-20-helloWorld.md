@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hello World
+title: Hello World
 categories: [life]
 tags:
 - math
