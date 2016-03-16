@@ -12,7 +12,7 @@ url:
 paginate:         1
 author:
   name:           yu
-  url:            http://lionxuan888.github.io/
+  url:            lionxuan888.github.io
   email:          lionxuan888@gmail.com
 comments:
   provider: disqus
