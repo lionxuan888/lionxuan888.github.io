@@ -1,4 +1,4 @@
-ï»¿# Dependencies
+?# Dependencies
 markdown:         kramdown
 highlighter:      pygments
 
@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            å°é±¼å„¿
+title:            Ğ¡Óã¶ù
 tagline:          My personal website
 url:
 paginate:         1
@@ -23,3 +23,4 @@ comments:
 version:          1.0.0
 github:
   repo:           https://github.com/lionxuan888
+  gems: [jekyll-paginate]
