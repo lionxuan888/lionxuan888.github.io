@@ -1,4 +1,4 @@
-?# Dependencies
+ï»¿?# Dependencies
 markdown:         kramdown
 highlighter:      pygments
 
@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Ğ¡Óã¶ù
+title:            å°é±¼å„¿
 tagline:          My personal website
 url:
 paginate:         1
