@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ∑ÔªÀ¡Î“ª”Œ
+title: hello World
 categories: [life]
 tags:
 - math
