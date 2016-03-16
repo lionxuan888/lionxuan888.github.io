@@ -6,14 +6,14 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            ars.me
+title:            Ð¡Óã¶ù
 tagline:          My personal website
 url:
 paginate:         1
 author:
-  name:           A. R. Shajii
-  url:            ars.me
-  email:          ars@ars.me
+  name:           yu
+  url:            http://lionxuan888.github.io/
+  email:          lionxuan888@gmail.com
 comments:
   provider: disqus
   disqus:
@@ -22,4 +22,4 @@ comments:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/arshajii/arshajii.github.io
+  repo:           https://github.com/lionxuan888
