@@ -24,8 +24,8 @@ redcarpet:
     - with_toc_data
     
 
-title : jj's Blog
-tagline: My personal site
+title : Logan's Blog
+tagline: My personal space
 
 
 ##### Menu
@@ -73,7 +73,7 @@ mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
+  name: logan      ## e.g. wuchong Author name
   intro_line1:  "Hello, I'm Logan ."    ## your introduction on the bottom of the page
   intro_line2:  "Too simple, sometimes naive."  ## the 2nd line
   weibo: 2951645702      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
@@ -105,7 +105,7 @@ links:
 excerpt_separator: <!--more-->
 
 #### Comment
-duoshuo_shortname: logan   ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: lionxuan   ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
