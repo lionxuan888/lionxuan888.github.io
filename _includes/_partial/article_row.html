@@ -1,10 +1,14 @@
 {% if page.type == 'archives' %}
+111
 <section class="post {{ item.date | date: "%Y-%m" }}" itemscope itemprop="blogPost">
 {% elsif page.type == 'categories' %}
+222
 <section class="post {% for category in item.categories %}{{ category }} {% endfor %}" itemscope itemprop="blogPost">
 {% elsif page.type == 'tags' %}
+  333
 <section class="post {% for tag in item.tags %}{{ tag }} {% endfor %}" itemscope itemprop="blogPost">
 {% else %}
+  444
 <section class="post" itemscope itemprop="blogPost">
 {% endif %}
 
