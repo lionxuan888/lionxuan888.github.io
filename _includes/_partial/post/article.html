@@ -1,4 +1,4 @@
-<div id="main" class="{{ item.type }}" itemscope itemprop="blogPost">
+<div id="main" class="post moveMain" itemscope itemprop="blogPost">
   {% if page.type == 'photo' and item.photos and item.photos | size != 0 %}
 	{% include _partial/post/gallery.html %}
   {% endif %}
