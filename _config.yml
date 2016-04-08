@@ -154,3 +154,12 @@ tinysou_search:     ## http://tinysou.com/
 
 gems:
  - jemoji
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      type: "post"
