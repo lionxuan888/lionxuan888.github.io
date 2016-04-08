@@ -6,13 +6,13 @@ tags:
 - guava
 ---
 
-# Guava 整理学习
+#Guava 整理学习
 
 ------
 
 wiki：[https://github.com/google/guava/wiki](https://github.com/google/guava/wiki)
 
-## Guava 函数式编程
+##Guava 函数式编程
 
 在FunctionalExplained一节，guava上来就比较了函数式和常规式的写法，并且指出了函数式
 
@@ -35,4 +35,4 @@ Please be sure, when using Guava's functional utilities, that the traditional im
 {% endhighlight %}
 
 
-- [ ] 支持以 PDF 格式导出文稿
+#支持以 PDF 格式导出文稿
