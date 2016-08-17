@@ -35,4 +35,3 @@ Please be sure, when using Guava's functional utilities, that the traditional im
 {% endhighlight %}
 
 
-#支持以 PDF 格式导出文稿
