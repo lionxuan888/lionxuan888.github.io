@@ -35,3 +35,23 @@ Please be sure, when using Guava's functional utilities, that the traditional im
 {% endhighlight %}
 
 
+{% highlight python3 %}
+    public class NewsPaperSubject extends Observable{
+
+        public String content;
+
+        public void  updateContent(String content) {
+            this.content = content;
+            synchronized (content) {
+
+            }
+            this.notifyObservers("哈哈");
+        }
+
+        public String getContent() {
+            return content;
+        }
+    }
+{% endhighlight %}
+
+
