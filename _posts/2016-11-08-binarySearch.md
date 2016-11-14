@@ -23,7 +23,21 @@ tags:
 4. 没有键值相等的节点。
 
 #平衡二叉树
-典型的代表有avl和红黑树参照
+典型的代表有avl和红黑树
+红黑树参照：
+[https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
 
-
-
+```
+LEFT-ROTATE(T, x)  
+1  y ← right[x] ▹ Set y.  
+2  right[x] ← left[y]      ▹ Turn y's left subtree into x's right subtree.  
+3  p[left[y]] ← x  
+4  p[y] ← p[x]             ▹ Link x's parent to y.  
+5  if p[x] = nil[T]  
+6     then root[T] ← y  
+7     else if x = left[p[x]]  
+8             then left[p[x]] ← y  
+9             else right[p[x]] ← y  
+10  left[y] ← x             ▹ Put x on y's left.  
+11  p[x] ← y  
+```
