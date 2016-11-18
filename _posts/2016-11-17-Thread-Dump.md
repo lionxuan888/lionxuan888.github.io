@@ -75,6 +75,10 @@ jstat监控GC：
 可以看到youngGc非常频繁，我设置的是每秒监控一次
 
 
+#调优
+很详细
+(http://www.importnew.com/22336.html)
+
 #参考：
 
 GC专家系列目录索引(推荐阅读)
@@ -88,3 +92,6 @@ GC专家系列目录索引(推荐阅读)
 
 [https://my.oschina.net/dabird/blog/691692]
 [http://blog.csdn.net/rachel_luo/article/details/8920596]
+
+
+
