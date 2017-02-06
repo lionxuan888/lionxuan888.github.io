@@ -22,6 +22,24 @@ tags:
 - Why should I care?
 
 
+比较有代表性的介绍
 What is javaMemoryModel:
-The Java Memory Model defines the behavior of volatile and synchronized, and, more importantly, 
+
+1. The Java Memory Model defines the behavior of volatile and synchronized, and, more importantly, 
+
 ensures that a correctly synchronized Java program runs correctly *on all processor architectures*.
+
+2. The Java Memory Model was an ambitious undertaking; 
+
+it was the first time that a programming language specification 
+
+attempted to incorporate a memory model which could provide consistent semantics 
+
+for concurrency across a variety of architectures. Unfortunately, 
+
+defining a memory model which is both consistent and intuitive proved far more difficult than expected. 
+
+JSR 133 defines a new memory model for the Java language which fixes the flaws of the earlier memory model. 
+
+In order to do this, the semantics of final and volatile needed to change.
+
