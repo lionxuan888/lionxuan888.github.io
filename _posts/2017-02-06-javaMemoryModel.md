@@ -4,6 +4,7 @@ title: javaMemoryModel
 categories: [programming]
 tags:
 - java memoryModel
+---
 
 #jsr133
 [what is java memoryModel](http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.htmlfef)
