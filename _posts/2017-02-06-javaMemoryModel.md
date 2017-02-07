@@ -30,7 +30,7 @@ What is javaMemoryModel:
 
 1. The Java Memory Model defines the behavior of volatile and synchronized, and, more importantly, 
 
-ensures that a correctly synchronized Java program runs correctly *on all processor architectures*.
+ensures that a correctly synchronized Java program runs correctly *on all processor architectures*;
 
 2. The Java Memory Model was an ambitious undertaking; 
 
