@@ -77,5 +77,25 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
   
   详细的可以细读[Wiki](https://en.wikipedia.org/wiki/Regular_expression)
   
- 
+  
+  
+  - java Pattern里的special constructs 
+  
+  http://www.ocpsoft.org/opensource/guide-to-regular-expressions-in-java-part-2/
+  ```
+  Look-ahead/behind constructs (non-capturing)
+  (?:X) 			X, as a non-capturing group
+  (?=X) 			X, via zero-width positive look-ahead
+  (?!X) 			X, via zero-width negative look-ahead
+  (?<=X) 			X, via zero-width positive look-behind
+  (?<!X) 			X, via zero-width negative look-behind
+  (?<X) 			X, as an independent, non-capturing group
+  So what does this all mean? What does a look-ahead really do for me? Say, for example, we wanted to know if our input string contains the word “incident” but that the word “theft” should not be found anywhere. We can use a negative look-ahead to ensure that there are no occurrences.
+  “(?!.*theft).*incident.*”
+  This expression exhibits the following behavior:
+  "There was a crime incident"			matches
+  "The incident involved a theft"			does not match
+  "The theft was a serious incident"		does not match
+  
+ ```
  
