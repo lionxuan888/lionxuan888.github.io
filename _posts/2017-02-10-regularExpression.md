@@ -80,9 +80,17 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
   
   
   - java Pattern里的special constructs 
-  
-  http://www.ocpsoft.org/opensource/guide-to-regular-expressions-in-java-part-2/
+  看例子好像是对表达式匹配的值的二次限定，即对后面正则的二次限定范围
+  比如：
   ```
+  we wanted to know if our input string contains the word “incident” 
+  but that the word “theft” should not be found anywhere. We can use a negative look-ahead to 
+  ensure that there are no occurrences.
+ 
+  “(?!.*theft).*incident.*”
+  ```
+  http://www.ocpsoft.org/opensource/guide-to-regular-expressions-in-java-part-2/
+  
   Look-ahead/behind constructs (non-capturing)
   (?:X) 			X, as a non-capturing group
   (?=X) 			X, via zero-width positive look-ahead
