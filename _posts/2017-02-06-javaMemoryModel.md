@@ -7,7 +7,7 @@ tags:
 ---
 
 #jsr133
-[what is java memoryModel](http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.htmlfef)
+[what is java memoryModel](http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html)
 [memoryModel](http://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html#jls-17.4)
 
 - What is a memory model, anyway?
