@@ -12,13 +12,13 @@ tags:
 
 
 kiil -3 PID ，默认会出输出到catalina.out日志里
-```
+{% highlight python3 %}
  kill -3 389
-```
+
 or 可以指定日志输出
-```
+{% highlight python3 %}
  sudo jstack -l 389 | tee -a jstack.log
-```
+{% endhighlight %}
 出现以下异常 用-F替代
 
 1099: Unable to open socket file: target process not responding or HotSpot VM not loaded
@@ -33,7 +33,7 @@ The -F option can be used when the target process is not responding
 ## 日志
 
 出现了非常频繁的ParallelGC日志
-```
+{% highlight python3 %}
 "GC task thread#0 (ParallelGC)" prio=10 tid=0x00007fb428021800 nid=0x263d runnable 
 
 "GC task thread#1 (ParallelGC)" prio=10 tid=0x00007fb428023000 nid=0x263e runnable 
@@ -41,20 +41,20 @@ The -F option can be used when the target process is not responding
 "GC task thread#2 (ParallelGC)" prio=10 tid=0x00007fb428025000 nid=0x263f runnable 
 
 "GC task thread#3 (ParallelGC)" prio=10 tid=0x00007fb428027000 nid=0x2640 runnable 
-```
+{% endhighlight %}
 
 出现次数非常多的RUNABLE状态的业务日志
-```
+{% highlight python3 %}
 "http-8000-10" daemon prio=10 tid=0x00007fb3f8025000 nid=0x276c runnable [0x00007fb398c82000]
    java.lang.Thread.State: RUNNABLE
    ...
    ArAccrualDetailServiceImpl.queryByIds
    ...
   
-```
+{% endhighlight %}
 
 jstat监控GC：
-```
+{% highlight python3 %}
 [l-qreaper.dev.cn0 ~]$ sudo jstat -gccause 29781 1000
   S0     S1     E      O      P     YGC     YGCT    FGC    FGCT     GCT    LGCC                 GCC                 
  75.48   0.00  53.94  93.55  35.02    504   37.875   121  287.080  324.955 Allocation Failure   No GC               
@@ -71,7 +71,7 @@ jstat监控GC：
   0.00   0.00 100.00 100.00  35.01    507   38.214   124  293.612  331.826 Allocation Failure   Ergonomics          
   0.00   0.00 100.00 100.00  35.01    507   38.214   124  293.612  331.826 Allocation Failure   Ergonomics          
   0.00   0.00 100.00 100.00  35.01    507   38.214   124  293.612  331.826 Allocation Failure   Ergonomics        
-```
+{% endhighlight %}
 可以看到youngGc非常频繁，我设置的是每秒监控一次
 
 

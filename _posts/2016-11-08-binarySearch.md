@@ -27,7 +27,7 @@ tags:
 红黑树参照：
 [https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
 
-```
+{% highlight python3 %}
 LEFT-ROTATE(T, x)  
 1  y ← right[x] ▹ Set y.  
 2  right[x] ← left[y]      ▹ Turn y's left subtree into x's right subtree.  
@@ -40,4 +40,4 @@ LEFT-ROTATE(T, x)
 9             else right[p[x]] ← y  
 10  left[y] ← x             ▹ Put x on y's left.  
 11  p[x] ← y  
-```
+{% endhighlight %}
