@@ -14,7 +14,7 @@ tags:
 kiil -3 PID ，默认会出输出到catalina.out日志里
 {% highlight python3 %}
  kill -3 389
-
+{% endhighlight %}
 or 可以指定日志输出
 {% highlight python3 %}
  sudo jstack -l 389 | tee -a jstack.log
