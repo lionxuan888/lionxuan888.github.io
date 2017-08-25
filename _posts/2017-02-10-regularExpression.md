@@ -19,7 +19,7 @@ tags:
     }
 ```
 - 有什么作用
-```
+``` java
 Regular expressions are used in search engines, search and replace dialogs of word processors 
 and text editors, in text processing utilities such as sed and AWK and in lexical analysis.
  Many programming languages provide regex capabilities, built-in, or via libraries.
@@ -31,7 +31,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
    如何实现
    
  汤姆森构造，不确定性有限自动机
- ```
+``` java
  A regex processor translates a regular expression in the above syntax into an internal representation 
  
  which can be executed and matched against a string representing the text being searched in.
@@ -51,7 +51,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
  
  主要是BRE和ERE
  
- ```
+``` java
  The IEEE POSIX standard has three sets of compliance: BRE (Basic Regular Expressions),[25] ERE (Extended Regular Expressions), 
  
  and SRE (Simple Regular Expressions). SRE is deprecated,[26] in favor of BRE, 
@@ -62,7 +62,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
  2. perl正则已经演化为真正意义上的标准了，由于其丰富和强大的自动化表达式。
  perl还提供了很多功能，比如懒加载，回溯，命名式捕获组和循环模式等，所有这些都是都对POSIX BRE/ERE强有力的补充
  Java, JavaScript, Python等众多语言都是使用的perl like
- ```
+``` java
  Perl regexes have become a de facto standard, having a rich and powerful set of atomic expressions.
  
   Perl has no "basic" or "extended" levels, where the ( ) and { } may or may not have literal meanings. 
@@ -83,7 +83,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
   - java Pattern里的special constructs 
   看例子好像是对表达式匹配的值的二次限定，即对后面正则的二次限定范围
   比如：
-  ```
+``` java
   we wanted to know if our input string contains the word “incident” 
   but that the word “theft” should not be found anywhere. We can use a negative look-ahead to 
   ensure that there are no occurrences.
@@ -91,7 +91,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
   ```
   http://www.ocpsoft.org/opensource/guide-to-regular-expressions-in-java-part-2/
   
-  ```
+``` java
     Look-ahead/behind constructs (non-capturing)
   (?:X) 			X, as a non-capturing group
   (?=X) 			X, via zero-width positive look-ahead
@@ -113,7 +113,7 @@ and text editors, in text processing utilities such as sed and AWK and in lexica
 
 http://blog.csdn.net/carolzhang8406/article/details/6726546
 
-```
+``` java
 贪婪量词：
 先看整个字符串是不是一个匹配。如果没有发现匹配，它去掉最后字符串中的最后一个字符，并再次尝试。如果还是没有发现匹配，那么    再次去掉最后一个字符串，这个过程会一直重复直到发现一个匹配或者字符串不剩任何字符。简单量词都是贪婪量词。
     惰性量词：
