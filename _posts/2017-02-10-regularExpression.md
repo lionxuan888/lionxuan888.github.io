@@ -10,11 +10,11 @@ tags:
  
 
 - What is regularExpression:
-```
- A regular expression, regex or regexp[1] (sometimes called a rational expression)[2][3] is, in theoretical computer science and formal language theory, 
-   a sequence of characters that define a search pattern. 
- Usually this pattern is then used by string searching algorithms for "find" or "find and replace" operations on strings.
- ```
+
+    A regular expression, regex or regexp[1] (sometimes called a rational expression)[2][3] is, in theoretical computer science and formal language theory, 
+    a sequence of characters that define a search pattern. 
+    Usually this pattern is then used by string searching algorithms for "find" or "find and replace" operations on strings.
+
 - 有什么作用
 ```
 Regular expressions are used in search engines, search and replace dialogs of word processors 
