@@ -12,10 +12,10 @@ baseurl: http://lionxuan888.github.io/
 paginate: 10
 
 # Markdown Processors
-#markdown: redcarpet
+markdown: kramdown
 #redcarpet:
 #  extensions:
-#    - hard_wrap
+#    - hard_wrap·
 #    - no_intra_emphasis
 #    - autolink
 #    - strikethrough
