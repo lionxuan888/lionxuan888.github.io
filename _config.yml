@@ -12,16 +12,16 @@ baseurl: http://lionxuan888.github.io/
 paginate: 10
 
 # Markdown Processors
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - tables
-    - lax_spacing
-    - with_toc_data
+#markdown: redcarpet
+#redcarpet:
+#  extensions:
+#    - hard_wrap
+#    - no_intra_emphasis
+#    - autolink
+#    - strikethrough
+#    - tables
+#    - lax_spacing
+#    - with_toc_data
     
 
 title : Logan's Blog
